@@ -19,6 +19,7 @@
 
 // document.write(document.querySelector(".circle").classList);
 
+// document.getElementById("diceBtn").onclick = () => {
 document.onclick = () => {
 
     var rand1 = Math.floor((Math.random()*6)+1);

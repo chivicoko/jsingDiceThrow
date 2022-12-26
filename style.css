@@ -33,6 +33,44 @@ body{
     justify-content: space-between;
 }
 
+#innerContainer {
+    justify-content: space-between;
+}
+
+#statement {
+    display: inline-block;
+}
+
+#spanContainer {
+    display: inline-block;
+    float: right;
+    padding: 0 20px 0 0;
+    justify-content: center;
+}
+
+#diceBtn {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: green;
+    box-shadow: 2px 5px 5px 2px black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%
+}
+
+#resetBtn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: blue;
+    /* box-shadow: 2px 5px black; */
+    box-shadow: 10px 10px 8px 10px #888;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
+
 .dice {
     display: inline-block;
 }
