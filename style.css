@@ -1,0 +1,47 @@
+/* .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.colorChange {
+    background-color: red;
+} */
+
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+    scroll-behavior:auto;
+}
+
+body{
+    background-color: grey;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 65px;
+    justify-content: space-between;
+}
+
+.dice {
+    display: inline-block;
+}
+
+.dice img {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
