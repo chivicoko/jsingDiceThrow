@@ -19,8 +19,8 @@
 
 // document.write(document.querySelector(".circle").classList);
 
-// document.getElementById("diceBtn").onclick = () => {
-document.onclick = () => {
+// document.onclick = () => {
+document.getElementById("diceBtn").onclick = () => {
 
     var rand1 = Math.floor((Math.random()*6)+1);
     if (document.getElementsByClassName("dice")[0].lastElementChild.getAttribute("class") === "img1") {
@@ -40,4 +40,10 @@ document.onclick = () => {
         document.getElementById("statement").innerHTML = "Player 2 Wins! 🎏";
     }
     
+}
+
+// document.write(document.getElementsByClassName("dice")[0].lastElementChild.getAttribute("src"));
+document.getElementById("resetBtn").onclick = () => {
+    document.getElementsByClassName("dice")[0].lastElementChild.setAttribute("src", "images/dice-0.png");
+    document.getElementsByClassName("dice")[1].lastElementChild.setAttribute("src", "images/dice-0.png");
 }
