@@ -31,7 +31,13 @@ body{
 .container h1 {
     font-size: 60px;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+/* 
+#click {
+    margin-top: 15px;
+} */
 
 #innerContainer {
     justify-content: space-between;
@@ -39,13 +45,6 @@ body{
 
 #statement {
     display: inline-block;
-}
-
-#spanContainer {
-    display: inline-block;
-    float: right;
-    padding: 0 20px 0 0;
-    justify-content: center;
 }
 
 .btns {
@@ -60,7 +59,13 @@ body{
     width: 50px;
     height: 50px;
     text-align: center;
-    border-radius: 50%
+    border-radius: 50%;
+}
+
+#diceBtn small {
+    position: relative;
+    top: 11px;
+    color: white;
 }
 
 #resetBtn {
@@ -73,6 +78,12 @@ body{
     height: 50px;
     text-align: center;
     border-radius: 50%;
+}
+
+#resetBtn small {
+    position: relative;
+    top: 11px;
+    color: white;
 }
 
 .dice {
