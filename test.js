@@ -44,6 +44,7 @@ document.getElementById("diceBtn").onclick = () => {
 
 // document.write(document.getElementsByClassName("dice")[0].lastElementChild.getAttribute("src"));
 document.getElementById("resetBtn").onclick = () => {
+    document.getElementById("statement").innerHTML = "Roll The Fun Dice 😄";
     document.getElementsByClassName("dice")[0].lastElementChild.setAttribute("src", "images/dice-0.png");
     document.getElementsByClassName("dice")[1].lastElementChild.setAttribute("src", "images/dice-0.png");
 }
