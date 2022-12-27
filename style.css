@@ -62,6 +62,10 @@ body{
     border-radius: 50%;
 }
 
+#diceBtn:hover {
+    cursor: pointer;
+}
+
 #diceBtn small {
     position: relative;
     top: 11px;
@@ -78,6 +82,10 @@ body{
     height: 50px;
     text-align: center;
     border-radius: 50%;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
 }
 
 #resetBtn small {
